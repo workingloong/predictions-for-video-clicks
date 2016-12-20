@@ -1,0 +1,7 @@
+generate_train_dataset.py生成预处理训练数据集给RandomForest_train.py文件训练模型，输入的是data_1_7_weeks.txt文件，该文件由generate_data_7weeks.py可以生成，
+
+regressionPredicByLs.py生成利用第7周的数据用最小二乘来预测点击量，pred_1_week7.txt
+
+RandomForesst_train.py利用生成的RF模型和预测的点击量来预测第八周的数据
+
+predict.py将最小二乘法的预测结果与随机森林的预测结果相结合，生成最终的预测结果
