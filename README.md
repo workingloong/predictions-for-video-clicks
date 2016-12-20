@@ -1,2 +1,2 @@
 # predictions-for-video-clicks
-Predictions for users' video clicks on website based the previous records in 7 weeks before.
+China Telecom provide the competitor with the video click records of users in previous 7 weeks and the competitor need to predict the users' video click of each day in 8th week. We got training dataset by sorted the data as time order and extracted featrues on Spark. Finally, we combine the regression predictions and classification predictions by Random Forest model. We got the F1-score 0.187 and rank top 10% (107/1123). The best F1-score is 0.215.
